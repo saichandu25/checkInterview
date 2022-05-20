@@ -1,0 +1,43 @@
+ul{
+    color: white;
+    font-weight: 800;
+   
+}
+.nav-link{
+    color: white;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.sideBar{
+    background-color: #1f631f;
+}
+li:hover{
+    border: 1px solid gray;
+}
+a {
+    margin-left: 10px;
+    font-weight: 700;
+}
+.label {
+    font-family: 'Segoe Print'; 
+    font-size: 200%;
+    text-align: center;
+    color:red;
+    text-shadow: 3px 1px 4px #000000;
+}
+@media only screen and (max-device-width: 786px) {
+    .center{
+        display: none;
+      
+    }
+}
+.icon{
+    padding: 0.5rem 0rem;
+}
+.nav-item{
+    display: flex;
+}

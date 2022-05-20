@@ -1,0 +1,60 @@
+.pagination{
+    margin-top: 100px;
+}
+
+.image{
+    transform: rotateY(180deg);
+}
+
+@media only screen and (max-device-width: 575px) {
+    .tree{
+        display: none !important;
+    }
+    .fontStyle{
+        font-family: Segoe Print !important;
+        font-size: 130% !important;
+    }
+    .fullScreen{
+        background: url(../../assets/pngfind.com-pine-branch-png-1300688.png) no-repeat center center;
+        background-size:  300px;
+
+    }
+}
+ th {
+    
+    border-right: 2px solid #999;
+   border-collapse: collapse;
+ }
+ th{
+    border-bottom: 2px solid #999;
+ }
+ td{
+     padding: 3px;
+    border-right: 2px solid #999;
+ }
+ th:last-child, td:last-child  {
+     border-right:0px !important;
+ }
+ .fontStyle{
+     font-family: Segoe Print;
+     font-size: 200%;
+ }
+ .pageNation{
+     display: flex;
+     justify-content: center;
+     list-style-type: none;
+     li{
+         padding: 10px 10px;
+        
+     }
+ }
+ .pagination{
+    display: flex;
+    justify-content: center;
+     ::ng-deep{
+         .current{
+            background: none;
+            color: red;
+         }
+     }
+ }
