@@ -8,6 +8,7 @@ import { DeliveryListComponent } from './delivery-list/delivery-list.component';
 import { AppHomeComponent } from './app-home/app-home.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { DummyComponent } from './dummy/dummy.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
     SideNavComponent,
     DeliveryListComponent,
     AppHomeComponent,
-    TopNavComponent
+    TopNavComponent,
+    DummyComponent
   ],
   imports: [
     BrowserModule,
